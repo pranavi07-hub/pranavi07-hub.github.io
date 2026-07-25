@@ -583,6 +583,9 @@ pre { margin: 0; font-family: var(--font-mono); }
   transform: scale(1.67);
 }
 :root[data-theme="dark"] .slide-logomarketpulse { filter: invert(1); }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .slide-logomarketpulse { filter: invert(1); }
+}
 
 .slide-body h3 {
   font-size: 1.2rem;
