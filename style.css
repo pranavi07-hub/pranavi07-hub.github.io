@@ -580,7 +580,7 @@ pre { margin: 0; font-family: var(--font-mono); }
   width: 100%;
   height: 100%;
   object-fit: contain;
-  transform: scale(1.75);
+  transform: scale(1.67);
 }
 :root[data-theme="dark"] .slide-logomarketpulse { filter: invert(1); }
 
