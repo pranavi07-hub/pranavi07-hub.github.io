@@ -1015,6 +1015,12 @@ pre { margin: 0; font-family: var(--font-mono); }
   .section { padding: var(--space-6) 0; }
   .timeline { padding-left: var(--space-5); }
   .timeline-dot { left: calc(-1 * var(--space-5) + 1px); }
-  .code-sticker { position: static; margin-top: var(--space-4); transform: none; }
+  .code-sticker {
+    max-width: 65%;
+    padding: var(--space-2) var(--space-3);
+    bottom: -14px;
+    left: 6%;
+  }
+  .code-sticker pre { font-size: 0.65rem; }
   .stat-strip { grid-template-columns: repeat(2, auto); }
 }
